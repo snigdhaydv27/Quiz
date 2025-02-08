@@ -16,7 +16,7 @@ This is a Quiz App built with React. The app fetches quiz data from an API and a
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone <https://github.com/snigdhaydv27/Quiz>
     ```
 2. Navigate to the project directory:
     ```bash
@@ -59,18 +59,11 @@ Quiz/
 ## Screenshots
 
 ### Home Screen
-![Home Screen](public/screenshots/home.png)
+![Home Screen](public/Screenshot%202025-02-08%20204922.png)
 
 ### Quiz Screen
-![Quiz Screen](public/screenshots/quiz.png)
+![Quiz Screen](public/Screenshot%202025-02-08%20204954.png)
 
 ### Score Screen
-![Score Screen](public/screenshots/score.png)
+![Score Screen](public/Screenshot%202025-02-08%20205017.png)
 
-## Video Walkthrough
-
-[![Video Walkthrough](public/screenshots/video-thumbnail.png)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-
-## License
-
-This project is licensed under the MIT License.
