@@ -1,8 +1,76 @@
-# React + Vite
+# Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Quiz App built with React. The app fetches quiz data from an API and allows users to answer questions, view their score, and see the correct answers.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fetches quiz data from an API
+- Displays questions and multiple-choice answers
+- Tracks user score with positive and negative marking
+- Shows correct answers after quiz completion
+- Allows users to play the quiz again
+- Includes countdown timer before starting the quiz
+- Responsive design
+
+## Setup Instructions
+
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd Quiz
+    ```
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+## Project Structure
+
+```
+Quiz/
+├── public/
+│   ├── bg.jpg
+│   ├── genetics.gif
+│   ├── sounds/
+│   │   ├── endQuiz.mp3
+│   │   ├── selectOption.mp3
+│   │   └── startQuiz.mp3
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── AnswerSection.jsx
+│   │   ├── Quiz.jsx
+│   │   └── QuizStyle.css
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── README.md
+└── package.json
+```
+
+## Screenshots
+
+### Home Screen
+![Home Screen](public/screenshots/home.png)
+
+### Quiz Screen
+![Quiz Screen](public/screenshots/quiz.png)
+
+### Score Screen
+![Score Screen](public/screenshots/score.png)
+
+## Video Walkthrough
+
+[![Video Walkthrough](public/screenshots/video-thumbnail.png)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+## License
+
+This project is licensed under the MIT License.
